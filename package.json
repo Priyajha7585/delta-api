@@ -37,5 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://delta-api-by-priya.netlify.app"
+  "proxy": "https://api.delta.exchange/v2/products"
 }
