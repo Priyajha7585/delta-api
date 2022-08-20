@@ -27,7 +27,7 @@ function Table() {
             </thead>
             <tbody>
             {products.map((product)=>(
-            <tr>
+            <tr className='table_row'>
             <td key={product.id}>{product.symbol}</td>
             <td key={product.id}>{product.description}</td>
             <td key={product.id}>{product.underlying_asset.symbol}</td>

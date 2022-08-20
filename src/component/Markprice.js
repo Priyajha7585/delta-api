@@ -25,13 +25,13 @@ function Markprice({symbol, underlying_asset_symbol}) {
     };
 
     ws.onmessage = function (event) {
-        console.log(event)
+        // console.log(event)
         const json = JSON.parse(event.data);
         // console.log(json['mark_price'])
-        console.log(json)
+        // console.log(json)
         try {
           if (typeof json['mark_price']!=="undefined") {
-            console.log(json['mark_price'])
+            // console.log(json['mark_price'])
             setMarkPrice(json['mark_price']);
           }
         } catch (err) {

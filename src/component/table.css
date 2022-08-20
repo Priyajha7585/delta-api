@@ -23,3 +23,10 @@
       background-color: navy;
       color: #fff;
   }
+  tr{
+    height: 5vh;
+  }
+  .table_row:nth-child(even){
+    background-color: rgba(0,0,0, .1);
+    
+  }
