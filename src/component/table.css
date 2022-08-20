@@ -7,8 +7,9 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    height: 7vh;
     z-index: 999;
-    background-color: #000;
+    background-color: navy;
     color: #fff;
   }
   
@@ -17,7 +18,8 @@
       position: sticky;
       position: -webkit-sticky;
       top: 0;
+      height: 7vh;
       z-index: 999;
-      background-color: #000;
+      background-color: navy;
       color: #fff;
   }

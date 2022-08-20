@@ -7,7 +7,7 @@ function App() {
       <Table />
       {/* <Data /> */}
       {/* <Product /> */}
-      <h1>Hiiiii</h1>
+      <h1>Loading...</h1>
     </>
   )
 }
